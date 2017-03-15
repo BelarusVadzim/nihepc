@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9869CA92-CD17-4B5B-A424-516C613460B1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>nihe_computers2</RootNamespace>
+    <AssemblyName>nihe_computers2</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Computer.cs" />
+    <Compile Include="Delegats.cs" />
+    <Compile Include="Dialogs.cs" />
+    <Compile Include="DSNIHE.cs">
+      <DependentUpon>DSNIHE.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DSNIHE.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSNIHE.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form01.Designer.cs">
+      <DependentUpon>Form01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form10HDD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form10HDD.Designer.cs">
+      <DependentUpon>Form10HDD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form11MonitorModel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form11MonitorModel.Designer.cs">
+      <DependentUpon>Form11MonitorModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form12MonitorAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form12MonitorAdd.Designer.cs">
+      <DependentUpon>Form12MonitorAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form02SimpleTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form02SimpleTable.Designer.cs">
+      <DependentUpon>Form02SimpleTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form03NewComp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form03NewComp.Designer.cs">
+      <DependentUpon>Form03NewComp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form04OS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form04OS.Designer.cs">
+      <DependentUpon>Form04OS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form05ChangeValue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form05ChangeValue.Designer.cs">
+      <DependentUpon>Form05ChangeValue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form06DeviceAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form06DeviceAdd.Designer.cs">
+      <DependentUpon>Form06DeviceAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form07CompInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form07CompInfo.Designer.cs">
+      <DependentUpon>Form07CompInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form08Processor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form08Processor.Designer.cs">
+      <DependentUpon>Form08Processor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form09RAM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form09RAM.Designer.cs">
+      <DependentUpon>Form09RAM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form13MonitorRemove.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form13MonitorRemove.Designer.cs">
+      <DependentUpon>Form13MonitorRemove.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form14Disconect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form14Disconect.Designer.cs">
+      <DependentUpon>Form14Disconect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form15Move.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form15Move.Designer.cs">
+      <DependentUpon>Form15Move.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form16MonitorInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form16MonitorInfo.Designer.cs">
+      <DependentUpon>Form16MonitorInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerComp.cs" />
+    <Compile Include="ManagerMonitor.cs" />
+    <Compile Include="Managers.cs" />
+    <Compile Include="ManagerSimpleDevices.cs" />
+    <Compile Include="Monitor.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimpleDevice.cs" />
+    <EmbeddedResource Include="Form01.resx">
+      <DependentUpon>Form01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form10HDD.resx">
+      <DependentUpon>Form10HDD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form11MonitorModel.resx">
+      <DependentUpon>Form11MonitorModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form12MonitorAdd.resx">
+      <DependentUpon>Form12MonitorAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form02SimpleTable.resx">
+      <DependentUpon>Form02SimpleTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form03NewComp.resx">
+      <DependentUpon>Form03NewComp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form04OS.resx">
+      <DependentUpon>Form04OS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form05ChangeValue.resx">
+      <DependentUpon>Form05ChangeValue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form06DeviceAdd.resx">
+      <DependentUpon>Form06DeviceAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form07CompInfo.resx">
+      <DependentUpon>Form07CompInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form08Processor.resx">
+      <DependentUpon>Form08Processor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form09RAM.resx">
+      <DependentUpon>Form09RAM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form13MonitorRemove.resx">
+      <DependentUpon>Form13MonitorRemove.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form14Disconect.resx">
+      <DependentUpon>Form14Disconect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form15Move.resx">
+      <DependentUpon>Form15Move.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form16MonitorInfo.resx">
+      <DependentUpon>Form16MonitorInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="DSNIHE.xsc">
+      <DependentUpon>DSNIHE.xsd</DependentUpon>
+    </None>
+    <None Include="DSNIHE.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSNIHE.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSNIHE.xss">
+      <DependentUpon>DSNIHE.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>Клиентский профиль .NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.10.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2008 Express Edition</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Установщик Windows 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

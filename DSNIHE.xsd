@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_NiheComputers" targetNamespace="http://tempuri.org/DS_NiheComputers.xsd" xmlns:mstns="http://tempuri.org/DS_NiheComputers.xsd" xmlns="http://tempuri.org/DS_NiheComputers.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_NiheComputers" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DS_NiheComputers" msprop:Generator_UserDSName="DS_NiheComputers">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Comp" msprop:Generator_TableClassName="CompDataTable" msprop:Generator_TableVarName="tableComp" msprop:Generator_TablePropName="Comp" msprop:Generator_RowDeletingName="CompRowDeleting" msprop:Generator_RowChangingName="CompRowChanging" msprop:Generator_RowEvHandlerName="CompRowChangeEventHandler" msprop:Generator_RowDeletedName="CompRowDeleted" msprop:Generator_UserTableName="Comp" msprop:Generator_RowChangedName="CompRowChanged" msprop:Generator_RowEvArgName="CompRowChangeEvent" msprop:Generator_RowClassName="CompRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="DepartmentID" msprop:Generator_ColumnVarNameInTable="columnDepartmentID" msprop:Generator_ColumnPropNameInRow="DepartmentID" msprop:Generator_ColumnPropNameInTable="DepartmentIDColumn" msprop:Generator_UserColumnName="DepartmentID" type="xs:int" default="1" minOccurs="0" />
+              <xs:element name="Room" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Room" msprop:Generator_ColumnVarNameInTable="columnRoom" msprop:Generator_ColumnPropNameInTable="RoomColumn" msprop:Generator_UserColumnName="Room" type="xs:string" minOccurs="0" />
+              <xs:element name="User" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="User" msprop:Generator_ColumnVarNameInTable="columnUser" msprop:Generator_ColumnPropNameInTable="UserColumn" msprop:Generator_UserColumnName="User" type="xs:string" minOccurs="0" />
+              <xs:element name="Num" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Num" msprop:Generator_ColumnVarNameInTable="columnNum" msprop:Generator_ColumnPropNameInTable="NumColumn" msprop:Generator_UserColumnName="Num" type="xs:string" minOccurs="0" />
+              <xs:element name="RAMID" msprop:Generator_ColumnVarNameInTable="columnRAMID" msprop:Generator_ColumnPropNameInRow="RAMID" msprop:Generator_ColumnPropNameInTable="RAMIDColumn" msprop:Generator_UserColumnName="RAMID" type="xs:int" default="1" />
+              <xs:element name="HDDID" msprop:Generator_ColumnVarNameInTable="columnHDDID" msprop:Generator_ColumnPropNameInRow="HDDID" msprop:Generator_ColumnPropNameInTable="HDDIDColumn" msprop:Generator_UserColumnName="HDDID" type="xs:int" default="1" />
+              <xs:element name="MonitorGUID" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="MonitorGUID" msprop:Generator_ColumnVarNameInTable="columnMonitorGUID" msprop:Generator_ColumnPropNameInTable="MonitorGUIDColumn" msprop:Generator_UserColumnName="MonitorGUID" type="xs:string" minOccurs="0" />
+              <xs:element name="OSID" msprop:Generator_ColumnVarNameInTable="columnOSID" msprop:Generator_ColumnPropNameInRow="OSID" msprop:Generator_ColumnPropNameInTable="OSIDColumn" msprop:Generator_UserColumnName="OSID" type="xs:int" default="1" minOccurs="0" />
+              <xs:element name="Name" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="GUID" msprop:Generator_ColumnVarNameInTable="columnGUID" msprop:Generator_ColumnPropNameInRow="GUID" msprop:Generator_ColumnPropNameInTable="GUIDColumn" msprop:Generator_UserColumnName="GUID" type="xs:string" />
+              <xs:element name="Deleted" msprop:Generator_ColumnVarNameInTable="columnDeleted" msprop:Generator_ColumnPropNameInRow="Deleted" msprop:Generator_ColumnPropNameInTable="DeletedColumn" msprop:Generator_UserColumnName="Deleted" type="xs:boolean" default="false" minOccurs="0" />
+              <xs:element name="ProcessorID" msprop:Generator_ColumnVarNameInTable="columnProcessorID" msprop:Generator_ColumnPropNameInRow="ProcessorID" msprop:Generator_ColumnPropNameInTable="ProcessorIDColumn" msprop:Generator_UserColumnName="ProcessorID" type="xs:int" default="1" minOccurs="0" />
+              <xs:element name="PurchaseDate" msprop:Generator_ColumnVarNameInTable="columnPurchaseDate" msprop:Generator_ColumnPropNameInRow="PurchaseDate" msprop:Generator_ColumnPropNameInTable="PurchaseDateColumn" msprop:Generator_UserColumnName="PurchaseDate" type="xs:dateTime" default="1999-12-31T23:00:00+02:00" minOccurs="0" />
+              <xs:element name="WarantyDate" msprop:Generator_ColumnVarNameInTable="columnWarantyDate" msprop:Generator_ColumnPropNameInRow="WarantyDate" msprop:Generator_ColumnPropNameInTable="WarantyDateColumn" msprop:Generator_UserColumnName="WarantyDate" type="xs:dateTime" default="1999-12-31T23:00:00+02:00" minOccurs="0" />
+              <xs:element name="VendorID" msprop:Generator_ColumnVarNameInTable="columnVendorID" msprop:Generator_ColumnPropNameInRow="VendorID" msprop:Generator_ColumnPropNameInTable="VendorIDColumn" msprop:Generator_UserColumnName="VendorID" type="xs:int" default="1" minOccurs="0" />
+              <xs:element name="FullName" msdata:ReadOnly="true" msdata:Expression="parent(FK_Processor_Comp).FullName+',  '+parent(FK_RAM_Comp).FullName+',  '+parent(FK_HDD_Comp).FullName" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="FullName" msprop:Generator_ColumnVarNameInTable="columnFullName" msprop:Generator_ColumnPropNameInTable="FullNameColumn" msprop:Generator_UserColumnName="FullName" type="xs:string" minOccurs="0" />
+              <xs:element name="FullName2" msdata:ReadOnly="true" msdata:Expression="IIF(num &lt;&gt; '',  'Инв. № '+NUM, 'ID '+ID) +' '+ Name" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="FullName2" msprop:Generator_ColumnVarNameInTable="columnFullName2" msprop:Generator_ColumnPropNameInTable="FullName2Column" msprop:Generator_UserColumnName="FullName2" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_UserColumnName="Description" type="xs:string" minOccurs="0" />
+              <xs:element name="Rating" msprop:Generator_ColumnVarNameInTable="columnRating" msprop:Generator_ColumnPropNameInRow="Rating" msprop:Generator_ColumnPropNameInTable="RatingColumn" msprop:Generator_UserColumnName="Rating" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EventComp" msprop:Generator_TableClassName="EventCompDataTable" msprop:Generator_TableVarName="tableEventComp" msprop:Generator_TablePropName="EventComp" msprop:Generator_RowDeletingName="EventCompRowDeleting" msprop:Generator_RowChangingName="EventCompRowChanging" msprop:Generator_RowEvHandlerName="EventCompRowChangeEventHandler" msprop:Generator_RowDeletedName="EventCompRowDeleted" msprop:Generator_UserTableName="EventComp" msprop:Generator_RowChangedName="EventCompRowChanged" msprop:Generator_RowEvArgName="EventCompRowChangeEvent" msprop:Generator_RowClassName="EventCompRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInRow="Date" msprop:Generator_ColumnPropNameInTable="DateColumn" msprop:Generator_UserColumnName="Date" type="xs:dateTime" />
+              <xs:element name="Info" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Info" msprop:Generator_ColumnVarNameInTable="columnInfo" msprop:Generator_ColumnPropNameInTable="InfoColumn" msprop:Generator_UserColumnName="Info" type="xs:string" minOccurs="0" />
+              <xs:element name="CompGUID" msprop:Generator_ColumnVarNameInTable="columnCompGUID" msprop:Generator_ColumnPropNameInRow="CompGUID" msprop:Generator_ColumnPropNameInTable="CompGUIDColumn" msprop:Generator_UserColumnName="CompGUID" type="xs:string" />
+              <xs:element name="ExtendedInfo" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="ExtendedInfo" msprop:Generator_ColumnVarNameInTable="columnExtendedInfo" msprop:Generator_ColumnPropNameInTable="ExtendedInfoColumn" msprop:Generator_UserColumnName="ExtendedInfo" type="xs:string" minOccurs="0" />
+              <xs:element name="CompText" msdata:ReadOnly="true" msdata:Expression="IIF(parent(Comp_EventComp).Name ='', 'ID '+parent(Comp_EventComp).ID+' (нет имени)', parent(Comp_EventComp).Name)" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="CompText" msprop:Generator_ColumnVarNameInTable="columnCompText" msprop:Generator_ColumnPropNameInTable="CompTextColumn" msprop:Generator_UserColumnName="CompText" type="xs:string" minOccurs="0" />
+              <xs:element name="EventName" msdata:ReadOnly="true" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="EventName" msprop:Generator_ColumnVarNameInTable="columnEventName" msprop:Generator_ColumnPropNameInTable="EventNameColumn" msprop:Generator_UserColumnName="EventName" type="xs:string" minOccurs="0" />
+              <xs:element name="ComputerNumber" msdata:ReadOnly="true" msdata:Expression="parent(Comp_EventComp).Num" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="ComputerNumber" msprop:Generator_ColumnVarNameInTable="columnComputerNumber" msprop:Generator_ColumnPropNameInTable="ComputerNumberColumn" msprop:Generator_UserColumnName="ComputerNumber" type="xs:string" minOccurs="0" />
+              <xs:element name="ComputerID" msdata:ReadOnly="true" msdata:Expression="parent(Comp_EventComp).ID" msprop:Generator_ColumnVarNameInTable="columnComputerID" msprop:Generator_ColumnPropNameInRow="ComputerID" msprop:Generator_ColumnPropNameInTable="ComputerIDColumn" msprop:Generator_UserColumnName="ComputerID" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Processor" msprop:Generator_TableClassName="ProcessorDataTable" msprop:Generator_TableVarName="tableProcessor" msprop:Generator_RowChangedName="ProcessorRowChanged" msprop:Generator_TablePropName="Processor" msprop:Generator_RowDeletingName="ProcessorRowDeleting" msprop:Generator_RowChangingName="ProcessorRowChanging" msprop:Generator_RowEvHandlerName="ProcessorRowChangeEventHandler" msprop:Generator_RowDeletedName="ProcessorRowDeleted" msprop:Generator_RowClassName="ProcessorRow" msprop:Generator_UserTableName="Processor" msprop:Generator_RowEvArgName="ProcessorRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="Name" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Frequency" msprop:Generator_ColumnVarNameInTable="columnFrequency" msprop:Generator_ColumnPropNameInRow="Frequency" msprop:Generator_ColumnPropNameInTable="FrequencyColumn" msprop:Generator_UserColumnName="Frequency" type="xs:double" minOccurs="0" />
+              <xs:element name="SocketID" msprop:Generator_ColumnVarNameInTable="columnSocketID" msprop:Generator_ColumnPropNameInRow="SocketID" msprop:Generator_ColumnPropNameInTable="SocketIDColumn" msprop:Generator_UserColumnName="SocketID" type="xs:int" default="1" minOccurs="0" />
+              <xs:element name="VendorID" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnVendorID" msprop:Generator_ColumnPropNameInRow="VendorID" msprop:Generator_ColumnPropNameInTable="VendorIDColumn" msprop:Generator_UserColumnName="VendorID" type="xs:int" default="1" />
+              <xs:element name="FullName" msdata:ReadOnly="true" msdata:Expression="IIF(Frequency &gt; 0, parent(FK_Vendor_Processor).Name+' '+Name +' ' +Frequency+'ГГц'+' '+parent(Socket_Processor).Name, 'Нет процессора')" msprop:Generator_ColumnVarNameInTable="columnFullName" msprop:Generator_ColumnPropNameInRow="FullName" msprop:Generator_ColumnPropNameInTable="FullNameColumn" msprop:Generator_UserColumnName="FullName" type="xs:string" minOccurs="0" />
+              <xs:element name="Sort" msprop:Generator_ColumnVarNameInTable="columnSort" msprop:Generator_ColumnPropNameInRow="Sort" msprop:Generator_ColumnPropNameInTable="SortColumn" msprop:Generator_UserColumnName="Sort" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Vendor" msprop:Generator_TableClassName="VendorDataTable" msprop:Generator_TableVarName="tableVendor" msprop:Generator_TablePropName="Vendor" msprop:Generator_RowDeletingName="VendorRowDeleting" msprop:Generator_RowChangingName="VendorRowChanging" msprop:Generator_RowEvHandlerName="VendorRowChangeEventHandler" msprop:Generator_RowDeletedName="VendorRowDeleted" msprop:Generator_UserTableName="Vendor" msprop:Generator_RowChangedName="VendorRowChanged" msprop:Generator_RowEvArgName="VendorRowChangeEvent" msprop:Generator_RowClassName="VendorRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Sort" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnSort" msprop:Generator_ColumnPropNameInRow="Sort" msprop:Generator_ColumnPropNameInTable="SortColumn" msprop:Generator_UserColumnName="Sort" type="xs:int" minOccurs="0" />
+              <xs:element name="FullName" msdata:ReadOnly="true" msdata:Expression="Name" msprop:Generator_ColumnVarNameInTable="columnFullName" msprop:Generator_ColumnPropNameInRow="FullName" msprop:Generator_ColumnPropNameInTable="FullNameColumn" msprop:Generator_UserColumnName="FullName" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Socket" msprop:Generator_TableClassName="SocketDataTable" msprop:Generator_TableVarName="tableSocket" msprop:Generator_RowChangedName="SocketRowChanged" msprop:Generator_TablePropName="Socket" msprop:Generator_RowDeletingName="SocketRowDeleting" msprop:Generator_RowChangingName="SocketRowChanging" msprop:Generator_RowEvHandlerName="SocketRowChangeEventHandler" msprop:Generator_RowDeletedName="SocketRowDeleted" msprop:Generator_RowClassName="SocketRow" msprop:Generator_UserTableName="Socket" msprop:Generator_RowEvArgName="SocketRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Sort" msprop:Generator_ColumnVarNameInTable="columnSort" msprop:Generator_ColumnPropNameInRow="Sort" msprop:Generator_ColumnPropNameInTable="SortColumn" msprop:Generator_UserColumnName="Sort" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Department" msprop:Generator_TableClassName="DepartmentDataTable" msprop:Generator_TableVarName="tableDepartment" msprop:Generator_RowChangedName="DepartmentRowChanged" msprop:Generator_TablePropName="Department" msprop:Generator_RowDeletingName="DepartmentRowDeleting" msprop:Generator_RowChangingName="DepartmentRowChanging" msprop:Generator_RowEvHandlerName="DepartmentRowChangeEventHandler" msprop:Generator_RowDeletedName="DepartmentRowDeleted" msprop:Generator_RowClassName="DepartmentRow" msprop:Generator_UserTableName="Department" msprop:Generator_RowEvArgName="DepartmentRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="FullName" msprop:Generator_ColumnVarNameInTable="columnFullName" msprop:Generator_ColumnPropNameInRow="FullName" msprop:Generator_ColumnPropNameInTable="FullNameColumn" msprop:Generator_UserColumnName="FullName" type="xs:string" minOccurs="0" />
+              <xs:element name="Sort" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnSort" msprop:Generator_ColumnPropNameInRow="Sort" msprop:Generator_ColumnPropNameInTable="SortColumn" msprop:Generator_UserColumnName="Sort" type="xs:int" minOccurs="0" />
+              <xs:element name="SimpleDevice" msprop:Generator_TableClassName="SimpleDeviceDataTable" msprop:Generator_TableVarName="tableSimpleDevice" msprop:Generator_TablePropName="SimpleDevice" msprop:Generator_RowDeletingName="SimpleDeviceRowDeleting" msprop:Generator_RowChangingName="SimpleDeviceRowChanging" msprop:Generator_RowEvHandlerName="SimpleDeviceRowChangeEventHandler" msprop:Generator_RowDeletedName="SimpleDeviceRowDeleted" msprop:Generator_UserTableName="SimpleDevice" msprop:Generator_RowChangedName="SimpleDeviceRowChanged" msprop:Generator_RowEvArgName="SimpleDeviceRowChangeEvent" msprop:Generator_RowClassName="SimpleDeviceRow" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+                    <xs:element name="DeviceTypeID" msprop:Generator_ColumnVarNameInTable="columnDeviceTypeID" msprop:Generator_ColumnPropNameInRow="DeviceTypeID" msprop:Generator_ColumnPropNameInTable="DeviceTypeIDColumn" msprop:Generator_UserColumnName="DeviceTypeID" type="xs:int" default="1" minOccurs="0" />
+                    <xs:element name="Name" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" type="xs:string" minOccurs="0" />
+                    <xs:element name="DepartmentID" msprop:Generator_ColumnVarNameInTable="columnDepartmentID" msprop:Generator_ColumnPropNameInRow="DepartmentID" msprop:Generator_ColumnPropNameInTable="DepartmentIDColumn" msprop:Generator_UserColumnName="DepartmentID" type="xs:int" default="1" minOccurs="0" />
+                    <xs:element name="UserName" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="UserName" msprop:Generator_ColumnVarNameInTable="columnUserName" msprop:Generator_ColumnPropNameInTable="UserNameColumn" msprop:Generator_UserColumnName="UserName" type="xs:string" minOccurs="0" />
+                    <xs:element name="Deleted" msprop:Generator_ColumnVarNameInTable="columnDeleted" msprop:Generator_ColumnPropNameInRow="Deleted" msprop:Generator_ColumnPropNameInTable="DeletedColumn" msprop:Generator_UserColumnName="Deleted" type="xs:boolean" minOccurs="0" />
+                    <xs:element name="PurchaseDate" msprop:Generator_ColumnVarNameInTable="columnPurchaseDate" msprop:Generator_ColumnPropNameInRow="PurchaseDate" msprop:Generator_ColumnPropNameInTable="PurchaseDateColumn" msprop:Generator_UserColumnName="PurchaseDate" type="xs:dateTime" default="1999-12-31T23:00:00+02:00" minOccurs="0" />
+                    <xs:element name="WarantyDate" msprop:Generator_ColumnVarNameInTable="columnWarantyDate" msprop:Generator_ColumnPropNameInRow="WarantyDate" msprop:Generator_ColumnPropNameInTable="WarantyDateColumn" msprop:Generator_UserColumnName="WarantyDate" type="xs:dateTime" default="1999-12-31T23:00:00+02:00" minOccurs="0" />
+                    <xs:element name="Room" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Room" msprop:Generator_ColumnVarNameInTable="columnRoom" msprop:Generator_ColumnPropNameInTable="RoomColumn" msprop:Generator_UserColumnName="Room" type="xs:string" minOccurs="0" />
+                    <xs:element name="Description" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_UserColumnName="Description" type="xs:string" minOccurs="0" />
+                    <xs:element name="Number" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Number" msprop:Generator_ColumnVarNameInTable="columnNumber" msprop:Generator_ColumnPropNameInTable="NumberColumn" msprop:Generator_UserColumnName="Number" type="xs:string" minOccurs="0" />
+                    <xs:element name="VendorID" msprop:Generator_ColumnVarNameInTable="columnVendorID" msprop:Generator_ColumnPropNameInRow="VendorID" msprop:Generator_ColumnPropNameInTable="VendorIDColumn" msprop:Generator_UserColumnName="VendorID" type="xs:int" default="1" minOccurs="0" />
+                    <xs:element name="AUX1" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="AUX1" msprop:Generator_ColumnVarNameInTable="columnAUX1" msprop:Generator_ColumnPropNameInTable="AUX1Column" msprop:Generator_UserColumnName="AUX1" type="xs:string" minOccurs="0" />
+                    <xs:element name="AUX2" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="AUX2" msprop:Generator_ColumnVarNameInTable="columnAUX2" msprop:Generator_ColumnPropNameInTable="AUX2Column" msprop:Generator_UserColumnName="AUX2" type="xs:string" minOccurs="0" />
+                    <xs:element name="FullName" msdata:ReadOnly="true" msdata:Expression="parent(FK_DeviceType_SimpleDevice).Name+' '+parent(FK_Vendor_SimpleDevice).Name+' '+Name" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="FullName" msprop:Generator_ColumnVarNameInTable="columnFullName" msprop:Generator_ColumnPropNameInTable="FullNameColumn" msprop:Generator_UserColumnName="FullName" type="xs:string" default="" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="RAMType" msprop:Generator_TableClassName="RAMTypeDataTable" msprop:Generator_TableVarName="tableRAMType" msprop:Generator_TablePropName="RAMType" msprop:Generator_RowDeletingName="RAMTypeRowDeleting" msprop:Generator_RowChangingName="RAMTypeRowChanging" msprop:Generator_RowEvHandlerName="RAMTypeRowChangeEventHandler" msprop:Generator_RowDeletedName="RAMTypeRowDeleted" msprop:Generator_UserTableName="RAMType" msprop:Generator_RowChangedName="RAMTypeRowChanged" msprop:Generator_RowEvArgName="RAMTypeRowChangeEvent" msprop:Generator_RowClassName="RAMTypeRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Sort" msprop:Generator_ColumnVarNameInTable="columnSort" msprop:Generator_ColumnPropNameInRow="Sort" msprop:Generator_ColumnPropNameInTable="SortColumn" msprop:Generator_UserColumnName="Sort" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PrinterType" msprop:Generator_TableClassName="PrinterTypeDataTable" msprop:Generator_TableVarName="tablePrinterType" msprop:Generator_TablePropName="PrinterType" msprop:Generator_RowDeletingName="PrinterTypeRowDeleting" msprop:Generator_RowChangingName="PrinterTypeRowChanging" msprop:Generator_RowEvHandlerName="PrinterTypeRowChangeEventHandler" msprop:Generator_RowDeletedName="PrinterTypeRowDeleted" msprop:Generator_UserTableName="PrinterType" msprop:Generator_RowChangedName="PrinterTypeRowChanged" msprop:Generator_RowEvArgName="PrinterTypeRowChangeEvent" msprop:Generator_RowClassName="PrinterTypeRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="RAM" msprop:Generator_TableClassName="RAMDataTable" msprop:Generator_TableVarName="tableRAM" msprop:Generator_RowChangedName="RAMRowChanged" msprop:Generator_TablePropName="RAM" msprop:Generator_RowDeletingName="RAMRowDeleting" msprop:Generator_RowChangingName="RAMRowChanging" msprop:Generator_RowEvHandlerName="RAMRowChangeEventHandler" msprop:Generator_RowDeletedName="RAMRowDeleted" msprop:Generator_RowClassName="RAMRow" msprop:Generator_UserTableName="RAM" msprop:Generator_RowEvArgName="RAMRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="Size" msprop:Generator_ColumnVarNameInTable="columnSize" msprop:Generator_ColumnPropNameInRow="Size" msprop:Generator_ColumnPropNameInTable="SizeColumn" msprop:Generator_UserColumnName="Size" type="xs:int" minOccurs="0" />
+              <xs:element name="RAMTypeID" msprop:Generator_ColumnVarNameInTable="columnRAMTypeID" msprop:Generator_ColumnPropNameInRow="RAMTypeID" msprop:Generator_ColumnPropNameInTable="RAMTypeIDColumn" msprop:Generator_UserColumnName="RAMTypeID" type="xs:int" minOccurs="0" />
+              <xs:element name="FullName" msdata:ReadOnly="true" msdata:Expression="IIF(SIZE &gt; 0, Size + 'Гб ' + parent(FK_RAMType_RAM).Name, 'Нет оперативки')" msprop:Generator_ColumnVarNameInTable="columnFullName" msprop:Generator_ColumnPropNameInRow="FullName" msprop:Generator_ColumnPropNameInTable="FullNameColumn" msprop:Generator_UserColumnName="FullName" type="xs:string" minOccurs="0" />
+              <xs:element name="Sort" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnSort" msprop:Generator_ColumnPropNameInRow="Sort" msprop:Generator_ColumnPropNameInTable="SortColumn" msprop:Generator_UserColumnName="Sort" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="OS" msprop:Generator_TableClassName="OSDataTable" msprop:Generator_TableVarName="tableOS" msprop:Generator_RowChangedName="OSRowChanged" msprop:Generator_TablePropName="OS" msprop:Generator_RowDeletingName="OSRowDeleting" msprop:Generator_RowChangingName="OSRowChanging" msprop:Generator_RowEvHandlerName="OSRowChangeEventHandler" msprop:Generator_RowDeletedName="OSRowDeleted" msprop:Generator_RowClassName="OSRow" msprop:Generator_UserTableName="OS" msprop:Generator_RowEvArgName="OSRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="OSNameID" msprop:Generator_ColumnVarNameInTable="columnOSNameID" msprop:Generator_ColumnPropNameInRow="OSNameID" msprop:Generator_ColumnPropNameInTable="OSNameIDColumn" msprop:Generator_UserColumnName="OSNameID" type="xs:int" minOccurs="0" />
+              <xs:element name="ArchitectureTypeID" msprop:Generator_ColumnVarNameInTable="columnArchitectureTypeID" msprop:Generator_ColumnPropNameInRow="ArchitectureTypeID" msprop:Generator_ColumnPropNameInTable="ArchitectureTypeIDColumn" msprop:Generator_UserColumnName="ArchitectureTypeID" type="xs:int" minOccurs="0" />
+              <xs:element name="FullName" msdata:ReadOnly="true" msdata:Expression="IIF(parent(FK_OSName_OS).Name &lt;&gt;' ', parent(FK_OSName_OS).Name+' '+parent(FK_ArchitectureType_OS).Name+'-х битная', 'Нет ОС')" msprop:Generator_ColumnVarNameInTable="columnFullName" msprop:Generator_ColumnPropNameInRow="FullName" msprop:Generator_ColumnPropNameInTable="FullNameColumn" msprop:Generator_UserColumnName="FullName" type="xs:string" minOccurs="0" />
+              <xs:element name="Sort" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnSort" msprop:Generator_ColumnPropNameInRow="Sort" msprop:Generator_ColumnPropNameInTable="SortColumn" msprop:Generator_UserColumnName="Sort" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="OSName" msprop:Generator_TableClassName="OSNameDataTable" msprop:Generator_TableVarName="tableOSName" msprop:Generator_RowChangedName="OSNameRowChanged" msprop:Generator_TablePropName="OSName" msprop:Generator_RowDeletingName="OSNameRowDeleting" msprop:Generator_RowChangingName="OSNameRowChanging" msprop:Generator_RowEvHandlerName="OSNameRowChangeEventHandler" msprop:Generator_RowDeletedName="OSNameRowDeleted" msprop:Generator_RowClassName="OSNameRow" msprop:Generator_UserTableName="OSName" msprop:Generator_RowEvArgName="OSNameRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Sort" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnSort" msprop:Generator_ColumnPropNameInRow="Sort" msprop:Generator_ColumnPropNameInTable="SortColumn" msprop:Generator_UserColumnName="Sort" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ArchitectureType" msprop:Generator_TableClassName="ArchitectureTypeDataTable" msprop:Generator_TableVarName="tableArchitectureType" msprop:Generator_RowChangedName="ArchitectureTypeRowChanged" msprop:Generator_TablePropName="ArchitectureType" msprop:Generator_RowDeletingName="ArchitectureTypeRowDeleting" msprop:Generator_RowChangingName="ArchitectureTypeRowChanging" msprop:Generator_RowEvHandlerName="ArchitectureTypeRowChangeEventHandler" msprop:Generator_RowDeletedName="ArchitectureTypeRowDeleted" msprop:Generator_RowClassName="ArchitectureTypeRow" msprop:Generator_UserTableName="ArchitectureType" msprop:Generator_RowEvArgName="ArchitectureTypeRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Sort" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnSort" msprop:Generator_ColumnPropNameInRow="Sort" msprop:Generator_ColumnPropNameInTable="SortColumn" msprop:Generator_UserColumnName="Sort" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="HDDType" msprop:Generator_TableClassName="HDDTypeDataTable" msprop:Generator_TableVarName="tableHDDType" msprop:Generator_RowChangedName="HDDTypeRowChanged" msprop:Generator_TablePropName="HDDType" msprop:Generator_RowDeletingName="HDDTypeRowDeleting" msprop:Generator_RowChangingName="HDDTypeRowChanging" msprop:Generator_RowEvHandlerName="HDDTypeRowChangeEventHandler" msprop:Generator_RowDeletedName="HDDTypeRowDeleted" msprop:Generator_RowClassName="HDDTypeRow" msprop:Generator_UserTableName="HDDType" msprop:Generator_RowEvArgName="HDDTypeRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="Name" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Sort" msprop:Generator_ColumnVarNameInTable="columnSort" msprop:Generator_ColumnPropNameInRow="Sort" msprop:Generator_ColumnPropNameInTable="SortColumn" msprop:Generator_UserColumnName="Sort" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="HDD" msprop:Generator_TableClassName="HDDDataTable" msprop:Generator_TableVarName="tableHDD" msprop:Generator_RowChangedName="HDDRowChanged" msprop:Generator_TablePropName="HDD" msprop:Generator_RowDeletingName="HDDRowDeleting" msprop:Generator_RowChangingName="HDDRowChanging" msprop:Generator_RowEvHandlerName="HDDRowChangeEventHandler" msprop:Generator_RowDeletedName="HDDRowDeleted" msprop:Generator_RowClassName="HDDRow" msprop:Generator_UserTableName="HDD" msprop:Generator_RowEvArgName="HDDRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="HDDTypeID" msprop:nullValue="0" msprop:Generator_ColumnPropNameInRow="HDDTypeID" msprop:Generator_ColumnVarNameInTable="columnHDDTypeID" msprop:Generator_ColumnPropNameInTable="HDDTypeIDColumn" msprop:Generator_UserColumnName="HDDTypeID" type="xs:int" minOccurs="0" />
+              <xs:element name="Size" msprop:Generator_ColumnVarNameInTable="columnSize" msprop:Generator_ColumnPropNameInRow="Size" msprop:Generator_ColumnPropNameInTable="SizeColumn" msprop:Generator_UserColumnName="Size" type="xs:int" minOccurs="0" />
+              <xs:element name="FullName" msdata:ReadOnly="true" msdata:Expression="IIF(SIZE &gt; 0, Size+'ГБ '+' SATA '+parent(FK_HDDType_HDD).Name+' '+parent(FK_Vendor_HDD).Name, 'Нет ЖД')" msprop:Generator_ColumnVarNameInTable="columnFullName" msprop:Generator_ColumnPropNameInRow="FullName" msprop:Generator_ColumnPropNameInTable="FullNameColumn" msprop:Generator_UserColumnName="FullName" type="xs:string" minOccurs="0" />
+              <xs:element name="VendorID" msprop:Generator_ColumnVarNameInTable="columnVendorID" msprop:Generator_ColumnPropNameInRow="VendorID" msprop:Generator_ColumnPropNameInTable="VendorIDColumn" msprop:Generator_UserColumnName="VendorID" type="xs:int" minOccurs="0" />
+              <xs:element name="Sort" msprop:Generator_ColumnVarNameInTable="columnSort" msprop:Generator_ColumnPropNameInRow="Sort" msprop:Generator_ColumnPropNameInTable="SortColumn" msprop:Generator_UserColumnName="Sort" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MonitorModel" msprop:Generator_TableClassName="MonitorModelDataTable" msprop:Generator_TableVarName="tableMonitorModel" msprop:Generator_RowChangedName="MonitorModelRowChanged" msprop:Generator_TablePropName="MonitorModel" msprop:Generator_RowDeletingName="MonitorModelRowDeleting" msprop:Generator_RowChangingName="MonitorModelRowChanging" msprop:Generator_RowEvHandlerName="MonitorModelRowChangeEventHandler" msprop:Generator_RowDeletedName="MonitorModelRowDeleted" msprop:Generator_RowClassName="MonitorModelRow" msprop:Generator_UserTableName="MonitorModel" msprop:Generator_RowEvArgName="MonitorModelRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="VendorID" msprop:Generator_ColumnVarNameInTable="columnVendorID" msprop:Generator_ColumnPropNameInRow="VendorID" msprop:Generator_ColumnPropNameInTable="VendorIDColumn" msprop:Generator_UserColumnName="VendorID" type="xs:int" minOccurs="0" />
+              <xs:element name="Size" msprop:Generator_ColumnVarNameInTable="columnSize" msprop:Generator_ColumnPropNameInRow="Size" msprop:Generator_ColumnPropNameInTable="SizeColumn" msprop:Generator_UserColumnName="Size" type="xs:int" minOccurs="0" />
+              <xs:element name="Wide" msprop:Generator_ColumnVarNameInTable="columnWide" msprop:Generator_ColumnPropNameInRow="Wide" msprop:Generator_ColumnPropNameInTable="WideColumn" msprop:Generator_UserColumnName="Wide" type="xs:boolean" default="true" minOccurs="0" />
+              <xs:element name="FullName" msdata:ReadOnly="true" msdata:Expression="parent(FK_Vendor_MonitorModel).FullName+' '+Name+' '+Size+'&quot; '" msprop:Generator_ColumnVarNameInTable="columnFullName" msprop:Generator_ColumnPropNameInRow="FullName" msprop:Generator_ColumnPropNameInTable="FullNameColumn" msprop:Generator_UserColumnName="FullName" type="xs:string" minOccurs="0" />
+              <xs:element name="Sort" msprop:Generator_ColumnVarNameInTable="columnSort" msprop:Generator_ColumnPropNameInRow="Sort" msprop:Generator_ColumnPropNameInTable="SortColumn" msprop:Generator_UserColumnName="Sort" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Monitor" msprop:Generator_TableClassName="MonitorDataTable" msprop:Generator_TableVarName="tableMonitor" msprop:Generator_RowChangedName="MonitorRowChanged" msprop:Generator_TablePropName="Monitor" msprop:Generator_RowDeletingName="MonitorRowDeleting" msprop:Generator_RowChangingName="MonitorRowChanging" msprop:Generator_RowEvHandlerName="MonitorRowChangeEventHandler" msprop:Generator_RowDeletedName="MonitorRowDeleted" msprop:Generator_RowClassName="MonitorRow" msprop:Generator_UserTableName="Monitor" msprop:Generator_RowEvArgName="MonitorRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="MonitorModelID" msprop:Generator_ColumnVarNameInTable="columnMonitorModelID" msprop:Generator_ColumnPropNameInRow="MonitorModelID" msprop:Generator_ColumnPropNameInTable="MonitorModelIDColumn" msprop:Generator_UserColumnName="MonitorModelID" type="xs:int" minOccurs="0" />
+              <xs:element name="PurchaseDate" msprop:Generator_ColumnVarNameInTable="columnPurchaseDate" msprop:Generator_ColumnPropNameInRow="PurchaseDate" msprop:Generator_ColumnPropNameInTable="PurchaseDateColumn" msprop:Generator_UserColumnName="PurchaseDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="WarantyDate" msprop:Generator_ColumnVarNameInTable="columnWarantyDate" msprop:Generator_ColumnPropNameInRow="WarantyDate" msprop:Generator_ColumnPropNameInTable="WarantyDateColumn" msprop:Generator_UserColumnName="WarantyDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Number" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Number" msprop:Generator_ColumnVarNameInTable="columnNumber" msprop:Generator_ColumnPropNameInTable="NumberColumn" msprop:Generator_UserColumnName="Number" type="xs:string" minOccurs="0" />
+              <xs:element name="DepartmentID" msprop:Generator_ColumnVarNameInTable="columnDepartmentID" msprop:Generator_ColumnPropNameInRow="DepartmentID" msprop:Generator_ColumnPropNameInTable="DepartmentIDColumn" msprop:Generator_UserColumnName="DepartmentID" type="xs:int" minOccurs="0" />
+              <xs:element name="Room" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Room" msprop:Generator_ColumnVarNameInTable="columnRoom" msprop:Generator_ColumnPropNameInTable="RoomColumn" msprop:Generator_UserColumnName="Room" type="xs:string" minOccurs="0" />
+              <xs:element name="FullName" msdata:ReadOnly="true" msdata:Expression="parent(FK_MonitorModel_Monitor).FullName+' №'+Number" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="FullName" msprop:Generator_ColumnVarNameInTable="columnFullName" msprop:Generator_ColumnPropNameInTable="FullNameColumn" msprop:Generator_UserColumnName="FullName" type="xs:string" minOccurs="0" />
+              <xs:element name="GUID" msprop:Generator_ColumnVarNameInTable="columnGUID" msprop:Generator_ColumnPropNameInRow="GUID" msprop:Generator_ColumnPropNameInTable="GUIDColumn" msprop:Generator_UserColumnName="GUID" type="xs:string" minOccurs="0" />
+              <xs:element name="Deleted" msprop:Generator_ColumnVarNameInTable="columnDeleted" msprop:Generator_ColumnPropNameInRow="Deleted" msprop:Generator_ColumnPropNameInTable="DeletedColumn" msprop:Generator_UserColumnName="Deleted" type="xs:boolean" default="false" minOccurs="0" />
+              <xs:element name="ComputerGUID" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="ComputerGUID" msprop:Generator_ColumnVarNameInTable="columnComputerGUID" msprop:Generator_ColumnPropNameInTable="ComputerGUIDColumn" msprop:Generator_UserColumnName="ComputerGUID" type="xs:string" minOccurs="0" />
+              <xs:element name="ComputerFullName2" msdata:ReadOnly="true" msdata:Expression="parent(FK_Comp_Monitor).FullName2" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="ComputerFullName2" msprop:Generator_ColumnVarNameInTable="columnComputerFullName2" msprop:Generator_ColumnPropNameInTable="ComputerFullName2Column" msprop:Generator_UserColumnName="ComputerFullName2" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MonitorEvent" msprop:Generator_TableClassName="MonitorEventDataTable" msprop:Generator_TableVarName="tableMonitorEvent" msprop:Generator_RowChangedName="MonitorEventRowChanged" msprop:Generator_TablePropName="MonitorEvent" msprop:Generator_RowDeletingName="MonitorEventRowDeleting" msprop:Generator_RowChangingName="MonitorEventRowChanging" msprop:Generator_RowEvHandlerName="MonitorEventRowChangeEventHandler" msprop:Generator_RowDeletedName="MonitorEventRowDeleted" msprop:Generator_RowClassName="MonitorEventRow" msprop:Generator_UserTableName="MonitorEvent" msprop:Generator_RowEvArgName="MonitorEventRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInRow="Date" msprop:Generator_ColumnPropNameInTable="DateColumn" msprop:Generator_UserColumnName="Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Info" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Info" msprop:Generator_ColumnVarNameInTable="columnInfo" msprop:Generator_ColumnPropNameInTable="InfoColumn" msprop:Generator_UserColumnName="Info" type="xs:string" minOccurs="0" />
+              <xs:element name="MonitorGUID" msprop:Generator_ColumnVarNameInTable="columnMonitorGUID" msprop:Generator_ColumnPropNameInRow="MonitorGUID" msprop:Generator_ColumnPropNameInTable="MonitorGUIDColumn" msprop:Generator_UserColumnName="MonitorGUID" type="xs:string" minOccurs="0" />
+              <xs:element name="ExtendedInfo" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="ExtendedInfo" msprop:Generator_ColumnVarNameInTable="columnExtendedInfo" msprop:Generator_ColumnPropNameInTable="ExtendedInfoColumn" msprop:Generator_UserColumnName="ExtendedInfo" type="xs:string" minOccurs="0" />
+              <xs:element name="MonitorText" msdata:ReadOnly="true" msdata:Expression="parent(FK_Monitor_MonitorEvent).FullName" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="MonitorText" msprop:Generator_ColumnVarNameInTable="columnMonitorText" msprop:Generator_ColumnPropNameInTable="MonitorTextColumn" msprop:Generator_UserColumnName="MonitorText" type="xs:string" minOccurs="0" />
+              <xs:element name="EventName" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="EventName" msprop:Generator_ColumnVarNameInTable="columnEventName" msprop:Generator_ColumnPropNameInTable="EventNameColumn" msprop:Generator_UserColumnName="EventName" type="xs:string" minOccurs="0" />
+              <xs:element name="MonitorNumber" msdata:ReadOnly="true" msdata:Expression="parent(FK_Monitor_MonitorEvent).Number" msprop:Generator_ColumnVarNameInTable="columnMonitorNumber" msprop:Generator_ColumnPropNameInRow="MonitorNumber" msprop:Generator_ColumnPropNameInTable="MonitorNumberColumn" msprop:Generator_UserColumnName="MonitorNumber" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DeviceType" msprop:Generator_TableClassName="DeviceTypeDataTable" msprop:Generator_TableVarName="tableDeviceType" msprop:Generator_TablePropName="DeviceType" msprop:Generator_RowDeletingName="DeviceTypeRowDeleting" msprop:Generator_RowChangingName="DeviceTypeRowChanging" msprop:Generator_RowEvHandlerName="DeviceTypeRowChangeEventHandler" msprop:Generator_RowDeletedName="DeviceTypeRowDeleted" msprop:Generator_UserTableName="DeviceType" msprop:Generator_RowChangedName="DeviceTypeRowChanged" msprop:Generator_RowEvArgName="DeviceTypeRowChangeEvent" msprop:Generator_RowClassName="DeviceTypeRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="Name" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Sort" msprop:Generator_ColumnVarNameInTable="columnSort" msprop:Generator_ColumnPropNameInRow="Sort" msprop:Generator_ColumnPropNameInTable="SortColumn" msprop:Generator_UserColumnName="Sort" type="xs:string" minOccurs="0" />
+              <xs:element name="FullName" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="FullName" msprop:Generator_ColumnVarNameInTable="columnFullName" msprop:Generator_ColumnPropNameInTable="FullNameColumn" msprop:Generator_UserColumnName="FullName" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SimpleDeviceEvent" msprop:Generator_TableClassName="SimpleDeviceEventDataTable" msprop:Generator_TableVarName="tableSimpleDeviceEvent" msprop:Generator_RowChangedName="SimpleDeviceEventRowChanged" msprop:Generator_TablePropName="SimpleDeviceEvent" msprop:Generator_RowDeletingName="SimpleDeviceEventRowDeleting" msprop:Generator_RowChangingName="SimpleDeviceEventRowChanging" msprop:Generator_RowEvHandlerName="SimpleDeviceEventRowChangeEventHandler" msprop:Generator_RowDeletedName="SimpleDeviceEventRowDeleted" msprop:Generator_RowClassName="SimpleDeviceEventRow" msprop:Generator_UserTableName="SimpleDeviceEvent" msprop:Generator_RowEvArgName="SimpleDeviceEventRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInRow="Date" msprop:Generator_ColumnPropNameInTable="DateColumn" msprop:Generator_UserColumnName="Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Info" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Info" msprop:Generator_ColumnVarNameInTable="columnInfo" msprop:Generator_ColumnPropNameInTable="InfoColumn" msprop:Generator_UserColumnName="Info" type="xs:string" minOccurs="0" />
+              <xs:element name="SimpleDeviceID" msprop:Generator_ColumnVarNameInTable="columnSimpleDeviceID" msprop:Generator_ColumnPropNameInRow="SimpleDeviceID" msprop:Generator_ColumnPropNameInTable="SimpleDeviceIDColumn" msprop:Generator_UserColumnName="SimpleDeviceID" type="xs:int" minOccurs="0" />
+              <xs:element name="ExtendedInfo" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="ExtendedInfo" msprop:Generator_ColumnVarNameInTable="columnExtendedInfo" msprop:Generator_ColumnPropNameInTable="ExtendedInfoColumn" msprop:Generator_UserColumnName="ExtendedInfo" type="xs:string" minOccurs="0" />
+              <xs:element name="SimpleDeviceText" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="SimpleDeviceText" msprop:Generator_ColumnVarNameInTable="columnSimpleDeviceText" msprop:Generator_ColumnPropNameInTable="SimpleDeviceTextColumn" msprop:Generator_UserColumnName="SimpleDeviceText" type="xs:string" minOccurs="0" />
+              <xs:element name="EventName" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="EventName" msprop:Generator_ColumnVarNameInTable="columnEventName" msprop:Generator_ColumnPropNameInTable="EventNameColumn" msprop:Generator_UserColumnName="EventName" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint2">
+      <xs:selector xpath=".//mstns:Comp" />
+      <xs:field xpath="mstns:GUID" />
+    </xs:unique>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Comp" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="EventComp_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//mstns:EventComp" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="Processor_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//mstns:Processor" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="Vendor_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//mstns:Vendor" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+    <xs:unique name="Vendor_Constraint2" msdata:ConstraintName="Constraint2">
+      <xs:selector xpath=".//mstns:Vendor" />
+      <xs:field xpath="mstns:Name" />
+    </xs:unique>
+    <xs:unique name="Socket_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//mstns:Socket" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="SimpleDeviceKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SimpleDevice" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="Department_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//mstns:Department" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="RAMType_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:RAMType" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="PrinterType_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//mstns:PrinterType" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="RAM_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:RAM" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="OS_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:OS" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="OSName_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:OSName" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="ArchitectureType_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ArchitectureType" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="HDDType_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:HDDType" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="HDD_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:HDD" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="MonitorModel_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:MonitorModel" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="Monitor_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Monitor" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="Monitor_Constraint2" msdata:ConstraintName="Constraint2">
+      <xs:selector xpath=".//mstns:Monitor" />
+      <xs:field xpath="mstns:GUID" />
+    </xs:unique>
+    <xs:unique name="MonitorEvent_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//mstns:MonitorEvent" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="DeviceTypeKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DeviceType" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="SimpleDeviceEvent_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SimpleDeviceEvent" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:keyref name="FK_SimpleDevice_SimpleDeviceEvent" refer="SimpleDeviceKey1" msprop:rel_Generator_UserChildTable="SimpleDeviceEvent" msprop:rel_Generator_ChildPropName="GetSimpleDeviceEventRows" msprop:rel_Generator_UserRelationName="FK_SimpleDevice_SimpleDeviceEvent" msprop:rel_Generator_RelationVarName="relationFK_SimpleDevice_SimpleDeviceEvent" msprop:rel_Generator_UserParentTable="SimpleDevice" msprop:rel_Generator_ParentPropName="SimpleDeviceRow" msdata:UpdateRule="None" msdata:DeleteRule="None">
+      <xs:selector xpath=".//mstns:SimpleDeviceEvent" />
+      <xs:field xpath="mstns:SimpleDeviceID" />
+    </xs:keyref>
+    <xs:keyref name="FK_Monitor_MonitorEvent" refer="Monitor_Constraint2" msprop:rel_Generator_UserChildTable="MonitorEvent" msprop:rel_Generator_ChildPropName="GetMonitorEventRows" msprop:rel_Generator_UserRelationName="FK_Monitor_MonitorEvent" msprop:rel_Generator_RelationVarName="relationFK_Monitor_MonitorEvent" msprop:rel_Generator_UserParentTable="Monitor" msprop:rel_Generator_ParentPropName="MonitorRow" msdata:UpdateRule="None" msdata:DeleteRule="None">
+      <xs:selector xpath=".//mstns:MonitorEvent" />
+      <xs:field xpath="mstns:MonitorGUID" />
+    </xs:keyref>
+    <xs:keyref name="FK_MonitorModel_Monitor" refer="MonitorModel_Constraint1" msprop:rel_Generator_UserChildTable="Monitor" msprop:rel_Generator_ChildPropName="GetMonitorRows" msprop:rel_Generator_UserRelationName="FK_MonitorModel_Monitor" msprop:rel_Generator_RelationVarName="relationFK_MonitorModel_Monitor" msprop:rel_Generator_UserParentTable="MonitorModel" msprop:rel_Generator_ParentPropName="MonitorModelRow" msdata:UpdateRule="None" msdata:DeleteRule="None">
+      <xs:selector xpath=".//mstns:Monitor" />
+      <xs:field xpath="mstns:MonitorModelID" />
+    </xs:keyref>
+    <xs:keyref name="FK_Department_Monitor" refer="Department_Constraint1" msprop:rel_Generator_UserChildTable="Monitor" msprop:rel_Generator_ChildPropName="GetMonitorRows" msprop:rel_Generator_UserRelationName="FK_Department_Monitor" msprop:rel_Generator_RelationVarName="relationFK_Department_Monitor" msprop:rel_Generator_UserParentTable="Department" msprop:rel_Generator_ParentPropName="DepartmentRow" msdata:UpdateRule="None" msdata:DeleteRule="None">
+      <xs:selector xpath=".//mstns:Monitor" />
+      <xs:field xpath="mstns:DepartmentID" />
+    </xs:keyref>
+    <xs:keyref name="FK_Vendor_MonitorModel" refer="Vendor_Constraint1" msprop:rel_Generator_UserChildTable="MonitorModel" msprop:rel_Generator_ChildPropName="GetMonitorModelRows" msprop:rel_Generator_UserRelationName="FK_Vendor_MonitorModel" msprop:rel_Generator_RelationVarName="relationFK_Vendor_MonitorModel" msprop:rel_Generator_UserParentTable="Vendor" msprop:rel_Generator_ParentPropName="VendorRow" msdata:UpdateRule="None" msdata:DeleteRule="None">
+      <xs:selector xpath=".//mstns:MonitorModel" />
+      <xs:field xpath="mstns:VendorID" />
+    </xs:keyref>
+    <xs:keyref name="FK_HDDType_HDD" refer="HDDType_Constraint1" msprop:rel_Generator_UserChildTable="HDD" msprop:rel_Generator_ChildPropName="GetHDDRows" msprop:rel_Generator_UserRelationName="FK_HDDType_HDD" msprop:rel_Generator_RelationVarName="relationFK_HDDType_HDD" msprop:rel_Generator_UserParentTable="HDDType" msprop:rel_Generator_ParentPropName="HDDTypeRow" msdata:UpdateRule="None" msdata:DeleteRule="None">
+      <xs:selector xpath=".//mstns:HDD" />
+      <xs:field xpath="mstns:HDDTypeID" />
+    </xs:keyref>
+    <xs:keyref name="FK_Vendor_HDD" refer="Vendor_Constraint1" msprop:rel_Generator_UserChildTable="HDD" msprop:rel_Generator_ChildPropName="GetHDDRows" msprop:rel_Generator_UserRelationName="FK_Vendor_HDD" msprop:rel_Generator_RelationVarName="relationFK_Vendor_HDD" msprop:rel_Generator_UserParentTable="Vendor" msprop:rel_Generator_ParentPropName="VendorRow" msdata:UpdateRule="None" msdata:DeleteRule="None">
+      <xs:selector xpath=".//mstns:HDD" />
+      <xs:field xpath="mstns:VendorID" />
+    </xs:keyref>
+    <xs:keyref name="FK_OSName_OS" refer="OSName_Constraint1" msprop:rel_Generator_UserChildTable="OS" msprop:rel_Generator_ChildPropName="GetOSRows" msprop:rel_Generator_UserRelationName="FK_OSName_OS" msprop:rel_Generator_ParentPropName="OSNameRow" msprop:rel_Generator_RelationVarName="relationFK_OSName_OS" msprop:rel_Generator_UserParentTable="OSName" msdata:UpdateRule="None" msdata:DeleteRule="None">
+      <xs:selector xpath=".//mstns:OS" />
+      <xs:field xpath="mstns:OSNameID" />
+    </xs:keyref>
+    <xs:keyref name="FK_ArchitectureType_OS" refer="ArchitectureType_Constraint1" msprop:rel_Generator_UserChildTable="OS" msprop:rel_Generator_ChildPropName="GetOSRows" msprop:rel_Generator_UserRelationName="FK_ArchitectureType_OS" msprop:rel_Generator_ParentPropName="ArchitectureTypeRow" msprop:rel_Generator_RelationVarName="relationFK_ArchitectureType_OS" msprop:rel_Generator_UserParentTable="ArchitectureType" msdata:UpdateRule="None" msdata:DeleteRule="None">
+      <xs:selector xpath=".//mstns:OS" />
+      <xs:field xpath="mstns:ArchitectureTypeID" />
+    </xs:keyref>
+    <xs:keyref name="FK_RAMType_RAM" refer="RAMType_Constraint1" msprop:rel_Generator_UserChildTable="RAM" msprop:rel_Generator_ChildPropName="GetRAMRows" msprop:rel_Generator_UserRelationName="FK_RAMType_RAM" msprop:rel_Generator_RelationVarName="relationFK_RAMType_RAM" msprop:rel_Generator_UserParentTable="RAMType" msprop:rel_Generator_ParentPropName="RAMTypeRow" msdata:UpdateRule="None" msdata:DeleteRule="None">
+      <xs:selector xpath=".//mstns:RAM" />
+      <xs:field xpath="mstns:RAMTypeID" />
+    </xs:keyref>
+    <xs:keyref name="FK_Vendor_SimpleDevice" refer="Vendor_Constraint1" msprop:rel_Generator_UserChildTable="SimpleDevice" msprop:rel_Generator_ChildPropName="GetSimpleDeviceRows" msprop:rel_Generator_UserRelationName="FK_Vendor_SimpleDevice" msprop:rel_Generator_ParentPropName="VendorRow" msprop:rel_Generator_RelationVarName="relationFK_Vendor_SimpleDevice" msprop:rel_Generator_UserParentTable="Vendor" msdata:UpdateRule="None" msdata:DeleteRule="None">
+      <xs:selector xpath=".//mstns:SimpleDevice" />
+      <xs:field xpath="mstns:VendorID" />
+    </xs:keyref>
+    <xs:keyref name="FK_Department_SimpleDevice" refer="Department_Constraint1" msdata:IsNested="true" msprop:rel_Generator_UserChildTable="SimpleDevice" msprop:rel_Generator_ChildPropName="GetSimpleDeviceRows" msprop:rel_Generator_UserRelationName="FK_Department_SimpleDevice" msprop:rel_Generator_ParentPropName="DepartmentRow" msprop:rel_Generator_RelationVarName="relationFK_Department_SimpleDevice" msprop:rel_Generator_UserParentTable="Department" msdata:UpdateRule="None" msdata:DeleteRule="None">
+      <xs:selector xpath=".//mstns:SimpleDevice" />
+      <xs:field xpath="mstns:DepartmentID" />
+    </xs:keyref>
+    <xs:keyref name="FK_Vendor_Processor" refer="Vendor_Constraint1" msprop:rel_Generator_UserChildTable="Processor" msprop:rel_Generator_ChildPropName="GetProcessorRows" msprop:rel_Generator_UserRelationName="FK_Vendor_Processor" msprop:rel_Generator_RelationVarName="relationFK_Vendor_Processor" msprop:rel_Generator_UserParentTable="Vendor" msprop:rel_Generator_ParentPropName="VendorRow" msdata:UpdateRule="None" msdata:DeleteRule="None">
+      <xs:selector xpath=".//mstns:Processor" />
+      <xs:field xpath="mstns:VendorID" />
+    </xs:keyref>
+    <xs:keyref name="Socket_Processor" refer="Socket_Constraint1" msprop:rel_Generator_UserChildTable="Processor" msprop:rel_Generator_ChildPropName="GetProcessorRows" msprop:rel_Generator_UserRelationName="Socket_Processor" msprop:rel_Generator_ParentPropName="SocketRow" msprop:rel_Generator_RelationVarName="relationSocket_Processor" msprop:rel_Generator_UserParentTable="Socket" msdata:UpdateRule="None" msdata:DeleteRule="None">
+      <xs:selector xpath=".//mstns:Processor" />
+      <xs:field xpath="mstns:SocketID" />
+    </xs:keyref>
+    <xs:keyref name="Comp_EventComp" refer="Constraint2" msprop:rel_Generator_UserChildTable="EventComp" msprop:rel_Generator_ChildPropName="GetEventCompRows" msprop:rel_Generator_UserRelationName="Comp_EventComp" msprop:rel_Generator_ParentPropName="CompRow" msprop:rel_Generator_RelationVarName="relationComp_EventComp" msprop:rel_Generator_UserParentTable="Comp" msdata:UpdateRule="None" msdata:DeleteRule="None">
+      <xs:selector xpath=".//mstns:EventComp" />
+      <xs:field xpath="mstns:CompGUID" />
+    </xs:keyref>
+    <xs:keyref name="FK_Processor_Comp" refer="Processor_Constraint1" msprop:rel_Generator_UserChildTable="Comp" msprop:rel_Generator_ChildPropName="GetCompRows" msprop:rel_Generator_UserRelationName="FK_Processor_Comp" msprop:rel_Generator_RelationVarName="relationFK_Processor_Comp" msprop:rel_Generator_UserParentTable="Processor" msprop:rel_Generator_ParentPropName="ProcessorRow" msdata:UpdateRule="None" msdata:DeleteRule="None">
+      <xs:selector xpath=".//mstns:Comp" />
+      <xs:field xpath="mstns:ProcessorID" />
+    </xs:keyref>
+    <xs:keyref name="FK_Department_Comp" refer="Department_Constraint1" msprop:rel_Generator_UserChildTable="Comp" msprop:rel_Generator_ChildPropName="GetCompRows" msprop:rel_Generator_UserRelationName="FK_Department_Comp" msprop:rel_Generator_ParentPropName="DepartmentRow" msprop:rel_Generator_RelationVarName="relationFK_Department_Comp" msprop:rel_Generator_UserParentTable="Department" msdata:UpdateRule="None" msdata:DeleteRule="None">
+      <xs:selector xpath=".//mstns:Comp" />
+      <xs:field xpath="mstns:DepartmentID" />
+    </xs:keyref>
+    <xs:keyref name="FK_RAM_Comp" refer="RAM_Constraint1" msprop:rel_Generator_UserChildTable="Comp" msprop:rel_Generator_ChildPropName="GetCompRows" msprop:rel_Generator_UserRelationName="FK_RAM_Comp" msprop:rel_Generator_ParentPropName="RAMRow" msprop:rel_Generator_RelationVarName="relationFK_RAM_Comp" msprop:rel_Generator_UserParentTable="RAM" msdata:UpdateRule="None" msdata:DeleteRule="None">
+      <xs:selector xpath=".//mstns:Comp" />
+      <xs:field xpath="mstns:RAMID" />
+    </xs:keyref>
+    <xs:keyref name="FK_OS_Comp" refer="OS_Constraint1" msprop:rel_Generator_UserChildTable="Comp" msprop:rel_Generator_ChildPropName="GetCompRows" msprop:rel_Generator_UserRelationName="FK_OS_Comp" msprop:rel_Generator_ParentPropName="OSRow" msprop:rel_Generator_RelationVarName="relationFK_OS_Comp" msprop:rel_Generator_UserParentTable="OS" msdata:UpdateRule="None" msdata:DeleteRule="None">
+      <xs:selector xpath=".//mstns:Comp" />
+      <xs:field xpath="mstns:OSID" />
+    </xs:keyref>
+    <xs:keyref name="FK_HDD_Comp" refer="HDD_Constraint1" msprop:rel_Generator_UserChildTable="Comp" msprop:rel_Generator_ChildPropName="GetCompRows" msprop:rel_Generator_UserRelationName="FK_HDD_Comp" msprop:rel_Generator_ParentPropName="HDDRow" msprop:rel_Generator_RelationVarName="relationFK_HDD_Comp" msprop:rel_Generator_UserParentTable="HDD" msdata:UpdateRule="None" msdata:DeleteRule="None">
+      <xs:selector xpath=".//mstns:Comp" />
+      <xs:field xpath="mstns:HDDID" />
+    </xs:keyref>
+    <xs:keyref name="FK_Vendor_Comp" refer="Vendor_Constraint1" msprop:rel_Generator_UserChildTable="Comp" msprop:rel_Generator_ChildPropName="GetCompRows" msprop:rel_Generator_UserRelationName="FK_Vendor_Comp" msprop:rel_Generator_ParentPropName="VendorRow" msprop:rel_Generator_RelationVarName="relationFK_Vendor_Comp" msprop:rel_Generator_UserParentTable="Vendor" msdata:UpdateRule="None" msdata:DeleteRule="None">
+      <xs:selector xpath=".//mstns:Comp" />
+      <xs:field xpath="mstns:VendorID" />
+    </xs:keyref>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="FK_Monitor_Comp" msdata:parent="Monitor" msdata:child="Comp" msdata:parentkey="GUID" msdata:childkey="MonitorGUID" msprop:Generator_UserChildTable="Comp" msprop:Generator_ChildPropName="GetCompRows" msprop:Generator_UserRelationName="FK_Monitor_Comp" msprop:Generator_RelationVarName="relationFK_Monitor_Comp" msprop:Generator_UserParentTable="Monitor" msprop:Generator_ParentPropName="MonitorRow" />
+      <msdata:Relationship name="FK_Comp_Monitor" msdata:parent="Comp" msdata:child="Monitor" msdata:parentkey="GUID" msdata:childkey="ComputerGUID" msprop:Generator_UserChildTable="Monitor" msprop:Generator_ChildPropName="GetMonitorRows" msprop:Generator_UserRelationName="FK_Comp_Monitor" msprop:Generator_ParentPropName="CompRow" msprop:Generator_RelationVarName="relationFK_Comp_Monitor" msprop:Generator_UserParentTable="Comp" />
+      <msdata:Relationship name="FK_DeviceType_SimpleDevice" msdata:parent="DeviceType" msdata:child="SimpleDevice" msdata:parentkey="ID" msdata:childkey="DeviceTypeID" msprop:Generator_UserChildTable="SimpleDevice" msprop:Generator_ChildPropName="GetSimpleDeviceRows" msprop:Generator_UserRelationName="FK_DeviceType_SimpleDevice" msprop:Generator_ParentPropName="DeviceTypeRow" msprop:Generator_RelationVarName="relationFK_DeviceType_SimpleDevice" msprop:Generator_UserParentTable="DeviceType" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>
